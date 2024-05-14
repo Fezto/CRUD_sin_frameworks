@@ -1,0 +1,33 @@
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#div_table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#div_select, #div_button {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#main_table {
+    width: 90%;
+}
+
+#main_select {
+    width: 90%;
+    height: 2rem;
+}
+
+#main_button_post {
+    width: 40%;
+    height: 3rem;
+}

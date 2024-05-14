@@ -1,0 +1,20 @@
+{
+  "name": "paso_6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/js/database.js",
+  "type": "module",
+  "scripts": {
+    "sv": "nodemon server/js/routes.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^9.0.1",
+    "better-sqlite3": "^9.5.0",
+    "fastify": "^4.26.2",
+    "kysely": "^0.27.3",
+    "nodemon": "^3.1.0"
+  }
+}
