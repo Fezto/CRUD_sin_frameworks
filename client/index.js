@@ -69,6 +69,7 @@ async function addRegistry({table, data}) {
     renderTable({parent: div_table, data: actualData, id: "main_table"})
 }
 
+// Agregando cualquier cosa para git
 function callLiveFunctions() {
     setInterval(updateInputs, 500)
 }
@@ -80,13 +81,10 @@ function updateInputs() {
         let inputsValues = (Array.from(inputs)).map(input => input.value)
         let inputsKeys = actualColumns.filter(column => column !== "id")
 
-
-        console.log(inputsValues, inputsKeys)
         actualInputsData = inputsKeys.reduce((object, key, index) => {
             object[key] = inputsValues[index]
             return object
         }, {})
-        console.log(actualInputsData)
     }
 }
 
